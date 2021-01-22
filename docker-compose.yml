@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  assignment:
+    build:
+      context: .
+    ports:
+      - "80:8000"
+    # environment:
+      # - DEBUG=1
+      # - ALLOWED_HOSTS=127.0.0.1,localhost
+
