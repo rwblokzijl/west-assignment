@@ -43,7 +43,7 @@ Now deploy with docker-compose:
 `docker-compose up --build`
 
 The API can now be reached at the default web port with
-`http://localhost/smallest/1/25/`
+http://localhost/smallest/1/25/
 
 ## Development
 
@@ -53,7 +53,8 @@ The project can be run for development with:
 
 This enables hot reload, debug and other django development features.
 
-The API can now be reached at `http://localhost:8000/smallest/1/25/`
+The API can now be reached at port 8000 with
+http://localhost:8000/smallest/1/25/
 
 # Running tests
 
